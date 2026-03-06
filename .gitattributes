@@ -1,0 +1,22 @@
+* text=auto
+
+*.rs text diff=rust
+Cargo.lock merge=union
+
+.gitattributes text export-ignore
+.gitignore text export-ignore
+
+*.md linguist-detectable=false linguist-vendored
+
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+*.tar binary
+*.gz binary
+*.zip binary
+*.7z binary
+
+/target/ export-ignore
